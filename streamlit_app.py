@@ -12,6 +12,7 @@ DB_NAME = "esc_odds"
 DB_USER = "esc_odds_user"
 DB_PASS = "your_db_password"
 
+print(f"======= DB_URL ====== {os.environ["DB_URL"]}")
 
 def get_data():
     """Fetch ranking data from the PostgreSQL database."""
